@@ -1,0 +1,1 @@
+--Terminal blog created to learn python and mongodb
