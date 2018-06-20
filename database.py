@@ -1,7 +1,7 @@
 import pymongo
 
 
-class Database():
+class Database(object):
     # mongodb localhost and port to connect
     uri = "mongodb://127.0.0.1:27017"
     DATABASE = None
@@ -18,8 +18,8 @@ class Database():
 
     @staticmethod
     def find(collection, query):
-        Database.DATABASE[collection].find(query)
+        return Database.DATABASE[collection].find(query)
 
     @staticmethod
     def find_one(collection, query):
-        Database.DATABASE[collection].insert(query)
+        return Database.DATABASE[collection].find_one(query)
