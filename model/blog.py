@@ -13,8 +13,8 @@ class Blog(object):
 
     # method for creating a new post
     def new_post(self):
-        title = input("Enter Blog title: ")
-        content = input("Enter some description: ")
+        title = input("Enter Post title: ")
+        content = input("Write your story: ")
 
         post = Post(title=title,
                     content=content, author=self.author, blog_id=self.id)
