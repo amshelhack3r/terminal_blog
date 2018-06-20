@@ -1,3 +1,6 @@
+[](https://travis-ci.com/amshelhack3r/terminal_blog.svg?branch=develop)
+
+
 # Terminal blog
 
 An blogging application written in python and mongodb
